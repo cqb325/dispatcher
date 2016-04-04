@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+	<actions name="testaction">
+		<action name="test">
+			<result name="success">/userlist.jsp</result>
+			<result name="error"></result>
+		</action>
+	</actions>
+	
+	<actions name="formfieldaction">
+		<action name="test">
+			<result name="success">/userlist.jsp</result>
+			<result name="error"></result>
+		</action>
+	</actions>
+	<!-- 
+	<interceptors>
+		<interceptor name="testinterceptor" class="com.cqb.action.TestInterceptor"></interceptor>
+	</interceptors>
+	 -->
+</config>

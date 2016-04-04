@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+	<!-- 上传文件设置 -->
+	<fileupload>
+		<property name="UPLOADFILEMAXSIZE" value="2048000"></property>
+	</fileupload>
+	<beans>
+		<property name="JdbcTemplate" value="com.at21.jdbc.core.JdbcTemplate"/>
+	</beans>
+</properties>

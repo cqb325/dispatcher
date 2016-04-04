@@ -1,0 +1,6 @@
+1:	tomcat编码配置 URIEncoding="UTF-8"
+2:	页面文件编码：UTF-8
+3:	页面Content-Type编码： <meta http-equiv=Content-Type content='text/html; charset=UTF-8'>
+4:	当在表单中提交数据的时候，数据根据页面Content-Type设置进行编码，在servlet中根据tomcat的编码配置进行解码。
+5:	当以get形式请求的时候(url)，应该以JavaScript的encodeURI编码之后才能提交。
+6:	如果要上传文件，表单必须以post请求，get方式得不到数据，并且上传的文件路径中不能包含中文。
